@@ -1,7 +1,7 @@
 ## Genshin Wiki scraper
 
-I couldn't find any api that i was satified with online so i made a scraper to make my own.
-this grabs info from the genshin wiki and saves it to a json file.
+I couldn't find any api that I was satified with online so I made a scraper to make my own.
+This grabs info from the genshin wiki and saves it to a json file.
 
 it can get:
 (character)
