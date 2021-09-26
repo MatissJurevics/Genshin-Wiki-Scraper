@@ -55,6 +55,24 @@ def getinfo(name):
         character_info[names_list.index(name)]["Element"] = element.span.a.attrs['title']
     except: 
         character_info[names_list.index(name)]["Element"] = element.text
+    
+    ## Gets Special Dish
+    dish = soup.find('div', {"data-source":"dish"})
+    try:
+        print(name, dish.div.a.attrs['title'])
+    except:
+        print("none")
+    try: 
+        character_info[names_list.index(name)]["Dish"] = dish.div.a.attrs['title']
+    except:
+        character_info[names_list.index(name)]["Dish"] = "None"
+    try:
+        dish_wiki_link_rel = dish.div.a.attrs['href']
+        dish_wiki_link = f'https://genshin-impact.fandom.com{dish_wiki_link_rel}'
+        character_info[names_list.index(name)]["Dish-Link"] = dish_wiki_link
+    except:
+        pass
+    
         
 
 def jsondump():
@@ -65,3 +83,4 @@ def jsondump():
 getnames()
 for name in names_list:
     getinfo(name)
+jsondump()

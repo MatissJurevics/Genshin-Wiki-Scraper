@@ -18,9 +18,7 @@ it will be able to get:
 - ~~weapon~~
 - ~~element~~
 - ~~gender~~
-- constallation
-- nation
-- special dish
+- ~~special dish~~
 - ascention info (materials needed)
 - talents
 - talent info
