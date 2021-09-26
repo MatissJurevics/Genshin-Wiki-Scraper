@@ -13,8 +13,8 @@ it can get:
 it will be able to get:
 (character)
 - image src
-- names
-- rarity
+- ~~names~~
+- ~~rarity~~
 - weapon
 - element
 - gender
