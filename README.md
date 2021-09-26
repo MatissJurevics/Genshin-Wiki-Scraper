@@ -15,9 +15,9 @@ it will be able to get:
 - image src
 - ~~names~~
 - ~~rarity~~
-- weapon
-- element
-- gender
+- ~~weapon~~
+- ~~element~~
+- ~~gender~~
 - constallation
 - nation
 - special dish
