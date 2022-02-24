@@ -1,4 +1,4 @@
-## Genshin Wiki scraper
+## Genshin Web scraper
 
 I couldn't find any api that I was satified with online so I made a scraper to make my own.
 This grabs info from the genshin wiki and saves it to a json file.
